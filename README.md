@@ -17,10 +17,13 @@ Para trabajar con este proyecto:
 
 1. **Clona este repositorio**:
    Este comando descarga el proyecto completo a tu ordenador:
+   
    ```bash
    git clone https://github.com/marceloLarreaxx/tutorial-de-datos-ultrasonicos.git
+   
 2. **Accede a la carpeta del proyecto**:
    En tu terminal
+   
    ```bash
    cd tutorial-de-datos-ultrasonicos
 
