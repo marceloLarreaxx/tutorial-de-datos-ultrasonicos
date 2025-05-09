@@ -110,6 +110,8 @@ Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la F
 <em>Figura 2: Interfaz Gráfica 2</em>
 </div>
 
+El botón **1** en la Figura [2] establece la conección con el robot colaborativo. En la sección **4** se determina los rangos de inclinaciones en los ejes *x* r *y*  
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
