@@ -13,7 +13,7 @@ Scripts y datos para adquisición de datos ultrasónicos, procesamiento y entren
 
 ## Cómo utilizar este repositorio
   
-Para trabajar con este proyecto::
+Para trabajar con este proyecto:
 
 1. **Clona este repositorio**:
    Este comando descarga el proyecto completo a tu ordenador:
