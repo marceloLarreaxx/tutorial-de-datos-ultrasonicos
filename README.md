@@ -104,6 +104,12 @@ Una vez que la pieza de referencia ha sido posicionada dentro del contenedor par
 
 Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [2], lo cual desplegará la siguiente interfaz:
 
+<div align="center">
+<img src="Imagenes/GUI2.png" alt="GUI2" width="700" />
+<br>
+<em>Figura 2: Interfaz Gráfica 2</em>
+</div>
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
