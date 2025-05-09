@@ -37,13 +37,7 @@ Para la ejecución correcta de los scripts, asegurarse de tener las siguientes v
 ## 1. Flujo de Trabajo
 En términos generales, el flujo de actividades se divide en tres etapas principales:
 
-
-```markdown
-<ul>
-    <li>Calibración del sistema de adquisición ultrasónica</li>
-    <li>Adquisición de datos</li>
-    <li>Post-procesamiento de señales</li>
-</ul>
+###1.1 ggg
 
 ## Documentación
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
