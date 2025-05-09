@@ -59,8 +59,9 @@ Para la ejecución de trayectorias precisas sobre las piezas de ensayo, se utili
 
 El conjunto de pruebas se realizó sobre seis piezas de geometría diversa, seleccionadas con el objetivo de proporcionar un desafío adecuado para evaluar el desempeño de las redes neuronales en etapas posteriores (Figura 2.1)
 
-
+<div align="center">
 <img src="Imagenes/fig_2_1.png" alt="Piezas de referencia" width="500" />
+</div>
 
 Toda la implementación de código, incluyendo las interfaces gráficas desarrolladas para esta etapa, se realizó en Python, utilizando como entorno de desarrollo integrado PyCharm.
 
