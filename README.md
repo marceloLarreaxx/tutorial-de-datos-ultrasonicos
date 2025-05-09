@@ -92,6 +92,8 @@ La interfaz principal utilizada para este proceso se muestra a continuación. Es
 
 <div align="center">
 <img src="Imagenes/GUI1.png" alt="GUI1" width="700" />
+<br>
+<em>Figura 2: Interfaz Gráfica 1</em>
 </div>
 
 Una vez que la pieza de referencia ha sido posicionada dentro del contenedor para el ensayo por inmersión, se deben realizar dos acciones iniciales:
@@ -100,7 +102,7 @@ Una vez que la pieza de referencia ha sido posicionada dentro del contenedor par
 
 **b)** vincular la interfaz con el sistema de adquisición SITAU.
 
-Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [X], lo cual desplegará la siguiente interfaz:
+Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [2], lo cual desplegará la siguiente interfaz:
 
 ## Documentación
 
