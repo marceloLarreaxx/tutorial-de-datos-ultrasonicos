@@ -1,5 +1,7 @@
 # Tutorial-de-datos-ultrasonicos
-Scripts y datos para adquisición de datos ultrasónicos, procesamiento y entrenamiento de CNN.
+
+Este documento tiene como objetivo guiar paso a paso el proceso completo de adquisición, procesamiento y análisis de datos ultrasónicos utilizando transductores de tipo matricial, con el propósito de entrenar modelos de redes neuronales convolucionales (CNN). A lo largo del documento, se detallará cómo configurar el sistema de adquisición, cómo procesar y etiquetar los datos obtenidos, y cómo utilizar dichos datos para el entrenamiento de modelos de inteligencia artificial orientados a la detección de tiempos de vuelo en las imágenes ultrasónicas. Además, se explicará cómo ejecutar los scripts desarrollados, con ejemplos prácticos que permitirán la replicación del flujo completo desde los datos crudos hasta la inferencia 
+
 
 ## Estructura del proyecto
 - `Calibracion_sistema:`
@@ -31,6 +33,7 @@ Para trabajar con este proyecto:
 Para la ejecución correcta de los scripts, asegurarse de tener las siguientes versiones instaladas:
 - Python: 3.7-3.10
 - TensorFlow: 2.10
+
 
 
 ## Documentación
