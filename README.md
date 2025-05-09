@@ -33,3 +33,5 @@ Para la ejecución correcta de los scripts, asegurarse de tener las siguientes v
 ## Documentación
 El tutorial detallado en pdf se encuentra disponible aquí:
 [Descargar tutorial.pdf](Documentacion/Tutorial_de_actividades_CSIC.pdf)
+
+Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos
