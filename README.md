@@ -11,7 +11,7 @@ Scripts y datos para adquisición de datos ultrasónicos, procesamiento y entren
 - `Entrenamiento_cnn:`
   Preparación de datos y entrenamiento del modelo de red neuronal convolucional.
 
-  ## Cómo utilizar este repositorio
+## Cómo utilizar este repositorio
   
 Para trabajar con este proyecto::
 
@@ -23,3 +23,7 @@ Para trabajar con este proyecto::
    En tu terminal
 4. ```bash
    cd tutorial-de-datos-ultrasonicos
+
+## Documentación
+El tutorial detallado en pdf se encuentra disponible aquí:
+[Descargar tutorial.pdf](tutorial.pdf)
