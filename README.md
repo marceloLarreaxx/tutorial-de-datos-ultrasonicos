@@ -118,11 +118,11 @@ Con esta modificación preliminar de ***TCP_OFFSET***, se lleva a cabo la misma 
 
 Cabe destacar que este proceso consta de dos etapas:
 
-    **a)** La primera etapa consiste en una exploración amplia, que abarca un rango de -12 a 12 grados en cada eje.
+  **a)** La primera etapa consiste en una exploración amplia, que abarca un rango de -12 a 12 grados en cada eje.
 
-    **b)** La segunda etapa realiza una exploración más precisa, centrada en los ángulos óptimos obtenidos de la primera búsqueda, los cuales se almacenan en las variables ang_min_xy.
+  **b)** La segunda etapa realiza una exploración más precisa, centrada en los ángulos óptimos obtenidos de la primera búsqueda, los cuales se almacenan en las variables ***ang_min_xy***.
 
-Por ejemplo, si en el primer paso los ángulos óptimos son x = 2 y y = 0, la segunda exploración se realizará en los rangos x = [0 a 4] y y = [-2 a 2].
+Por ejemplo, si en el primer paso los ángulos óptimos son *x = 2* y *y = 0*, la segunda exploración se realizará en los rangos *x = [0 a 4]* y *y = [-2 a 2]*.
 
 ## Documentación
 
