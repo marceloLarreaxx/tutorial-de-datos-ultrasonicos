@@ -26,4 +26,4 @@ Para trabajar con este proyecto::
 
 ## Documentación
 El tutorial detallado en pdf se encuentra disponible aquí:
-[Descargar tutorial.pdf](tutorial.pdf)
+[Descargar tutorial.pdf](Documentacion/Tutorial_de_actividades_CSIC.pdf)
