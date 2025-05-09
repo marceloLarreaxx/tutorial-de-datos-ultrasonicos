@@ -61,6 +61,9 @@ El conjunto de pruebas se realizó sobre seis piezas de geometría diversa, sele
 
 ![Piezas de referencia](Imagenes/fig_2_1.png)
 
+Toda la implementación de código, incluyendo las interfaces gráficas desarrolladas para esta etapa, se realizó en Python, utilizando como entorno de desarrollo integrado PyCharm.
+
+A continuación, se describe el setup experimental con mayor detalle.
 
 ## Documentación
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
