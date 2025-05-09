@@ -84,6 +84,9 @@ Con esta información, se aplica un análisis de regresión por mínimos cuadrad
 
 A continuación, se detallan los pasos específicos para llevar a cabo este proceso de calibración:
 
+#### 3.1.1 Interfaz Gráfica
+
+La interfaz principal utilizada para este proceso se muestra a continuación. Esta fue implementada en el script [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py). Para llevar a cabo la calibración descrita anteriormente, se siguen los siguientes pasos:
 
 
 [Descargar TFM asociado.pdf](https://github.com/marceloLarreaxx/tutorial-de-datos-ultrasonicos/raw/main/Documentacion/Memoria_TFM.pdf)
