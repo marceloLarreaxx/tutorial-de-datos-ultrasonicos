@@ -89,7 +89,7 @@ A continuación, se detallan los pasos específicos para llevar a cabo este proc
 La interfaz principal utilizada para este proceso se muestra a continuación. Esta fue implementada en el script [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py). Para llevar a cabo la calibración descrita anteriormente, se siguen los siguientes pasos:
 
 <div align="center">
-<img src="Imagenes/GUI1.png" alt="GUI1" width="500" />
+<img src="Imagenes/GUI1.png" alt="GUI1" width="700" />
 </div>
 
 ## Documentación
