@@ -116,6 +116,14 @@ Una vez obtenidos los datos de TOF de las adquisiciones, junto con la informaci�
 
 Con esta modificación preliminar de ***TCP_OFFSET***, se lleva a cabo la misma exploración de ángulos en los ejes *x* e *y*, pero esta vez con el objetivo de corregir las inclinaciones del transductor con respecto a la pieza plana. Una vez almacenados los datos, se utiliza el script [post_processing_2.py](Calibracion_sistema/post_processing_2.py), que nos proporciona la primera corrección, es decir, en las coordenadas *x* e *y* (almacenadas en la variable ***rot1_xy***).
 
+Cabe destacar que este proceso consta de dos etapas:
+
+    **a)** La primera etapa consiste en una exploración amplia, que abarca un rango de -12 a 12 grados en cada eje.
+
+    **b)** La segunda etapa realiza una exploración más precisa, centrada en los ángulos óptimos obtenidos de la primera búsqueda, los cuales se almacenan en las variables ang_min_xy.
+
+Por ejemplo, si en el primer paso los ángulos óptimos son x = 2 y y = 0, la segunda exploración se realizará en los rangos x = [0 a 4] y y = [-2 a 2].
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
