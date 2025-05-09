@@ -13,3 +13,9 @@ Scripts y datos para adquisición de datos ultrasónicos, procesamiento y entren
 
   ## Cómo utilizar este repositorio
   
+Para trabajar con este proyecto::
+
+1. **Clona este repositorio**:
+   Este comando descargará el proyecto completo a tu computadora:
+   ```bash
+   git clone https://github.com/marceloLarreaxx/tutorial-de-datos-ultrasonicos.git
