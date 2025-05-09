@@ -61,6 +61,8 @@ El conjunto de pruebas se realizó sobre seis piezas de geometría diversa, sele
 
 <div align="center">
 <img src="Imagenes/fig_2_1.png" alt="Piezas de referencia" width="500" />
+<br>
+<em>Figura 1: Piezas de referencia</em>
 </div>
 
 Toda la implementación de código, incluyendo las interfaces gráficas desarrolladas para esta etapa, se realizó en Python, utilizando como entorno de desarrollo integrado PyCharm.
