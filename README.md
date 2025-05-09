@@ -92,8 +92,17 @@ La interfaz principal utilizada para este proceso se muestra a continuación. Es
 <img src="Imagenes/GUI1.png" alt="GUI1" width="700" />
 </div>
 
+Una vez que la pieza de referencia ha sido posicionada dentro del contenedor para el ensayo por inmersión, se deben realizar dos acciones iniciales:
+
+**a)** establecer la conexión con el brazo robótico, y
+
+**b)** vincular la interfaz con el sistema de adquisición SITAU.
+
+Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [X], lo cual desplegará la siguiente interfaz:
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
 
 [Descargar TFM asociado.pdf](https://github.com/marceloLarreaxx/tutorial-de-datos-ultrasonicos/raw/main/Documentacion/Memoria_TFM.pdf)
+
