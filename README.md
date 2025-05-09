@@ -10,3 +10,6 @@ Scripts y datos para adquisición de datos ultrasónicos, procesamiento y entren
   Procesamiento de datos, creación de formatos .pickle, etiquetado.
 - `Entrenamiento_cnn:`
   Preparación de datos y entrenamiento del modelo de red neuronal convolucional.
+
+  ## Cómo utilizar este repositorio
+  
