@@ -68,4 +68,20 @@ A continuación, se describe el setup experimental con mayor detalle.
 ## Documentación
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
 
+## 3. Adquisición de Datos
+
+### 3.1 Calibración del Sistema
+
+El primer paso en el proceso de adquisición consiste en la calibración del sistema, cuyo objetivo es determinar con precisión la posición y orientación del transductor respecto a cada pieza evaluada.
+
+Para ello, se comienza ajustando el Punto Central de la Herramienta (PCH) del brazo robótico. Este punto se define sobre el elemento central del transductor matricial y es fundamental, ya que todos los movimientos y trayectorias posteriores del robot se calcularán con base en dicha referencia.
+
+La calibración implica una secuencia predefinida de inclinaciones del transductor, ejecutadas mediante el brazo robótico. En cada una de estas posiciones, se adquieren datos de tiempo de vuelo (TOF). El procedimiento compara los tiempos de vuelo teóricos, calculados a partir de modelos geométricos, con los valores medidos durante la adquisición.
+
+Con esta información, se aplica un análisis de regresión por mínimos cuadrados que permite estimar las correcciones necesarias en las coordenadas del PCH, de modo que este quede correctamente alineado con el centro real del transductor.
+
+A continuación, se detallan los pasos específicos para llevar a cabo este proceso de calibración:
+
+
+
 [Descargar TFM asociado.pdf](https://github.com/marceloLarreaxx/tutorial-de-datos-ultrasonicos/raw/main/Documentacion/Memoria_TFM.pdf)
