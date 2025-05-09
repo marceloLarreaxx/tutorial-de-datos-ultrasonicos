@@ -37,9 +37,17 @@ Para la ejecución correcta de los scripts, asegurarse de tener las siguientes v
 ## 1. Flujo de Trabajo
 En términos generales, el flujo de actividades se divide en tres etapas principales:
 
-### 1.1 La configuración del proceso de adquisición.
+### 1.1 La configuración del proceso de adquisición
 
 Esta etapa abarca la preparación del sistema de adquisición ultrasónica, incluyendo los scripts necesarios para la comunicación y calibración del robot colaborativo encargado de posicionar el transductor durante la toma de datos.
+
+### 1.2 El procesamiento de los datos crudos
+
+Esta etapa contempla el procesamiento de las señales adquiridas, lo cual incluye los scripts de visualización, el criterio utilizado para el etiquetado automático de los datos, el formato de almacenamiento adoptado y el flujo completo de preprocesamiento.
+
+### 1.3 El entrenamiento de una red convolucional
+
+Esta etapa implica los criterios de entrenamiento y validación aplicados a la red convolucional, diseñada específicamente para la detección precisa de tiempos de vuelo en los datos ultrasónicos.
 
 
 ## Documentación
