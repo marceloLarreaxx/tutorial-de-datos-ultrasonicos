@@ -24,6 +24,12 @@ Para trabajar con este proyecto::
 4. ```bash
    cd tutorial-de-datos-ultrasonicos
 
+## Requisitos
+Para la ejecución correcta de los scripts, asegurarse de tener las siguientes versiones instaladas:
+- Python: 3.7-3.10
+- TensorFlow: 2.10
+
+
 ## Documentación
 El tutorial detallado en pdf se encuentra disponible aquí:
 [Descargar tutorial.pdf](Documentacion/Tutorial_de_actividades_CSIC.pdf)
