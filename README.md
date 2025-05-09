@@ -55,9 +55,12 @@ Esta etapa implica los criterios de entrenamiento y validación aplicados a la r
 
 Se utilizaron dos tipos de transductores matriciales: 1) Un transductor Imasonic de 11×11 elementos. 2) Un transductor Doppler de 16×16 elementos, del cual se empleó solamente un subconjunto activo de 8×16 elementos para la emisión y recepción de señales. El sistema de adquisici´on empleado es un equipo multicanal con 128 canales en paralelo, marca SITAU, fabricado por la empresa Dasel S.L. (España).
 
-Para la ejecuci´on de trayectorias precisas sobre las piezas de ensayo, se utilizó un brazo robot colaborativo de seis ejes (6 grados de libertad), modelo UR10e, fabricado por Universal Robots (Dinamarca).
+Para la ejecución de trayectorias precisas sobre las piezas de ensayo, se utilizó un brazo robot colaborativo de seis ejes (6 grados de libertad), modelo UR10e, fabricado por Universal Robots (Dinamarca).
 
-El conjunto de pruebas se realizó sobre seis piezas de geometría diversa, seleccionadas con el objetivo de proporcionar un desafío adecuado para evaluar el desempeño de las redes neuronales en etapas posteriores
+El conjunto de pruebas se realizó sobre seis piezas de geometría diversa, seleccionadas con el objetivo de proporcionar un desafío adecuado para evaluar el desempeño de las redes neuronales en etapas posteriores (Figura 2.1)
+
+![Piezas de referencia](Imagenes/fig_2_1.png)
+
 
 ## Documentación
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
