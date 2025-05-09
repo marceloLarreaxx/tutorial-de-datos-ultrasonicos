@@ -96,7 +96,7 @@ La interfaz principal utilizada para este proceso se muestra a continuación. Es
 <em>Figura 2: Interfaz Gráfica 1</em>
 </div>
 
-Una vez que la pieza de referencia ha sido posicionada dentro del contenedor para el ensayo por inmersión, se deben realizar dos acciones iniciales:
+Una vez que la pieza de referencia (PLANO) ha sido posicionada dentro del contenedor para el ensayo por inmersión, se deben realizar dos acciones iniciales:
 
 **a)** establecer la conexión con el brazo robótico, y
 
