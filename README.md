@@ -110,7 +110,7 @@ Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la F
 <em>Figura 2: Interfaz Gráfica 2</em>
 </div>
 
-El botón **1** en la Figura [2] establece la conección con el robot colaborativo. En la sección **4** se determina los rangos de inclinaciones en los ejes *x* e *y*. En las pruebas realizadsa se aplicó un *sweep time = 1* y un *measure time = 2*. Hecho esto, se presiona el botòn ***Sweep Theta*** y, una vez vinculada la interfaz con el sistema SITAU, el sistema adquiere los datos necesarios y los alamacena en formato *.npy*.
+El botón **1 **en la Figura [2] establece la conexión con el robot colaborativo. En la sección **4**, se definen los rangos de inclinación en los ejes *x* e *y*. En las pruebas realizadas, se configuraron los parámetros *sweep time = 1* y *measure time = 2*. Una vez realizados estos ajustes, se debe presionar el botón ***Sweep Theta***. Tras vincular la interfaz con el sistema SITAU, el sistema adquiere los datos necesarios y los almacena en formato .npy.
 
 ## Documentación
 
