@@ -21,7 +21,7 @@ Para trabajar con este proyecto:
    git clone https://github.com/marceloLarreaxx/tutorial-de-datos-ultrasonicos.git
 2. **Accede a la carpeta del proyecto**:
    En tu terminal
-4. ```bash
+   ```bash
    cd tutorial-de-datos-ultrasonicos
 
 ## Requisitos
