@@ -161,7 +161,7 @@ Dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py), se c
 <em></em>
 </div>
 
-Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan los índices de cruce de umbral para cada uno de los cinco elementos activos del transductor en cada posición evaluada. Para cada posición, se determina el índice máximo y mínimo de cruce, se calcula su diferencia, y se identifica el par de inclinaciones que minimiza dicha diferencia (***ang_min_xy***). Este procedimiento permite encontrar la orientación del transductor que resulta más paralela posible al plano de referencia.
+Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan los índices de cruce de umbral para cada uno de los cinco elementos activos del transductor en cada posición evaluada. Para cada posición, se determina el índice máximo y mínimo de cruce (o de detección de eco), se calcula su diferencia, y se identifica el par de inclinaciones que minimiza dicha diferencia (***ang_min_xy***). Este procedimiento permite encontrar la orientación del transductor que resulta más paralela posible al plano de referencia.
 
 <div align="left">
 <img src="Imagenes/valores_ajustados_4.png" alt="valores_ajustados_4" width="900" />
@@ -185,7 +185,15 @@ A partir de este ajuste, volvemos a [alinear_app_2.py](Calibracion_sistema/aline
 <em></em>
 </div>
 
-Con esto completado, se realiza una última exploración de posiciones, enfocada en alinear la inclinación del transductor a lo largo del eje *z*. Esta búsqueda consiste en definir un rango de inclinaciones en dicho eje, mientras se mantiene un ángulo fijo en la coordenada *x*. La configuración correspondiente se establece desde la sección 4 de la interfaz mostrada en la Figura 3.
+Con esto completado, se realiza una última exploración de posiciones, enfocada en alinear la inclinación del transductor a lo largo del eje *z*. Esta búsqueda consiste en definir un rango de inclinaciones en dicho eje, mientras se mantiene un ángulo fijo en la coordenada *x*. La configuración correspondiente se establece desde la sección 4 de la interfaz mostrada en la Figura 3, teniendo en cuenta que los elementos activos del transductor se los define en el campo ***Assign channels*** (ver figura 4), y corresponden a una fila entera del transductor. 
+
+<div align="center">
+<img src="Imagenes/GUI2_1.png" alt="GUI2_1" width="700" />
+<br>
+<em>Figura 4: Interfaz Gráfica 2</em>
+</div>
+
+El procesamiento de los datos almacenados es igual al descrito anteriormente, es decir, dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py) se debe obtener el ángulo que minimiza la diferencia 
 
 ## Documentación
 
