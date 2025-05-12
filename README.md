@@ -130,7 +130,7 @@ Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se c
 El procesamiento de estos datos culmina en los valores de posición ajustados del TCP:
 
 <div align="left">
-<img src="Imagenes/valores_ajustados.png" alt="valores_ajustados" width="600" />
+<img src="Imagenes/valores_ajustados.png" alt="valores_ajustados" width="400" />
 <br>
 <em></em>
 </div>
