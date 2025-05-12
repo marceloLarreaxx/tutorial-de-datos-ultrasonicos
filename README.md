@@ -185,7 +185,7 @@ A partir de este ajuste, volvemos a [alinear_app_2.py](Calibracion_sistema/aline
 <em></em>
 </div>
 
-Ya con esto, se lleva a cabo una última exploración de posiciones para alinear la inclinación del transductor a lo largo del eje *z*. Esta búsqueda involucra definir un rango de inclinaciones en el eje *z*, manteniendo un ángulo fijo en la coordfenada *x*. La configuración se la determina en la sección 4 de la interfaz que se muestra en la figura 3. 
+Con esto completado, se realiza una última exploración de posiciones, enfocada en alinear la inclinación del transductor a lo largo del eje *z*. Esta búsqueda consiste en definir un rango de inclinaciones en dicho eje, mientras se mantiene un ángulo fijo en la coordenada *x*. La configuración correspondiente se establece desde la sección 4 de la interfaz mostrada en la Figura 3.
 
 ## Documentación
 
