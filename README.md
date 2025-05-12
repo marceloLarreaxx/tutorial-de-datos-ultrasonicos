@@ -116,8 +116,10 @@ En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_a
 <div align="left">
 <img src="Imagenes/Estimacion_inicial_tcp.png" alt="Estimacion inicial TCP" width="700" />
 <br>
-<em>Figura 4: Estimacion inicial TCP</em>
+<em></em>
 </div>
+
+Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se cargan los datos adquiridos en la exploración de 
 
 Con esta modificación preliminar de ***TCP_OFFSET***, se lleva a cabo la misma exploración de ángulos en los ejes *x* e *y*, pero esta vez con el objetivo de corregir las inclinaciones del transductor con respecto a la pieza plana. Una vez almacenados los datos, se utiliza el script [post_processing_2.py](Calibracion_sistema/post_processing_2.py), que nos proporciona la primera corrección, es decir, en las coordenadas *x* e *y* (almacenadas en la variable ***rot1_xy***).
 
