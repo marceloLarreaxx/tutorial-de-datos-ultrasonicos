@@ -204,6 +204,12 @@ El procesamiento de los datos almacenados es igual al descrito anteriormente, es
 
 ## 4. Adquisición de Datos
 
+Los pasos a tomar en este punto son los siguientes:
+
+### 4.1 Alineamiento pieza-transductor
+
+Este procedimiento el script utilizado es [alinear_app_2]("Calibracion_sistema/alinear_app_2.py"), y se lo hace para todas las piezas evaluadas. Para ilustrar el proceso se indica, a continuación, solamnete el caso de uno de los cilindros. Una vez posicionada la pieza dentro del contenedor se busca que el centro del transductor coincida con el eje axial del cilindro. El proceso involucra 
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
