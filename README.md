@@ -153,6 +153,8 @@ Cabe destacar que este proceso consta de dos etapas:
 
 Por ejemplo, si en el primer paso los ángulos óptimos son *x = 2* y *y = 0*, la segunda exploración se realizará en los rangos *x = [0 a 4]* y *y = [-2 a 2]*.
 
+Dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py), se cargan los datos adquiridos en la exploración mencionada:
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
