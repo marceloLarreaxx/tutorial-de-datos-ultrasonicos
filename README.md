@@ -155,6 +155,12 @@ Por ejemplo, si en el primer paso los ángulos óptimos son *x = 2* y *y = 0*, l
 
 Dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py), se cargan los datos adquiridos en la exploración mencionada:
 
+<div align="left">
+<img src="Imagenes/valores_ajustados_3.png" alt="valores_ajustados_3" width="900" />
+<br>
+<em></em>
+</div>
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
