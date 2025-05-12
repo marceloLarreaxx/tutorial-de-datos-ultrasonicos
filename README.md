@@ -208,7 +208,21 @@ Los pasos a tomar en este punto son los siguientes:
 
 ### 4.1 Alineamiento pieza-transductor
 
-Este procedimiento el script utilizado es [alinear_app_2]("Calibracion_sistema/alinear_app_2.py"), y se lo hace para todas las piezas evaluadas. Para ilustrar el proceso se indica, a continuación, solamnete el caso de uno de los cilindros. Una vez posicionada la pieza dentro del contenedor se busca que el centro del transductor coincida con el eje axial del cilindro. El proceso involucra 
+Para este procedimiento, se utiliza el script [alinear_app_2]("Calibracion_sistema/alinear_app_2.py"), aplicándolo a todas las piezas evaluadas. A modo ilustrativo, a continuación se describe únicamente el caso de uno de los cilindros.Una vez que la pieza ha sido posicionada dentro del contenedor, se busca alinear el centro del transductor con el eje axial del cilindro. El proceso consiste en activar cinco elementos del transductor: sus cuatro esquinas y el elemento central. A partir de los tiempos de vuelo (TOF) de los ecos recibidos por estos elementos, se determina la posición óptima de alineación (ver Figura 5).
+
+<div align="center">
+<img src="Imagenes/esquema_cilindro_1.png" alt="esquema_cilindro_1" width="700" />
+<br>
+<em>Figura 5: Esquema alineamiento transductor-cilindro</em>
+</div>
+
+En el caso del cilindro mostrado, el patrón de señales esperado corresponde a una coincidencia de TOFs en las cuatro esquinas y un tiempo de vuelo menor en el centro del transductor (ver Figura 6).
+
+<div align="center">
+<img src="Imagenes/alineamiento_cilindro_1.png" alt="alineamiento_cilindro_1" width="700" />
+<br>
+<em>Figura 6: Evaluación alineamiento transductor-cilindro</em>
+</div>
 
 ## Documentación
 
