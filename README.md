@@ -122,7 +122,7 @@ En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_a
 Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se cargan los datos adquiridos en la exploración mencionada:
 
 <div align="left">
-<img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="900" />
+<img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="700" />
 <br>
 <em></em>
 </div>
