@@ -101,7 +101,7 @@ Una vez que la pieza de referencia (PLANO) ha sido posicionada dentro del conten
 
 Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [2], lo cual desplegará la siguiente interfaz:
 
-<div align="center">
+<div align="LEFT">
 <img src="Imagenes/GUI2.png" alt="GUI2" width="700" />
 <br>
 <em>Figura 3: Interfaz Gráfica 2</em>
