@@ -114,7 +114,7 @@ Una vez obtenidos los datos de TOF de las adquisiciones, junto con la informaci�
 En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py), una primera estimación del los valores TCP:
 
 <div align="left">
-<img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="700" />
+<img src="Imagenes/Estimacion_inicial_tcp.png" alt="Estimacion inicial TCP" width="700" />
 <br>
 <em></em>
 </div>
@@ -122,7 +122,7 @@ En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_a
 Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se cargan los datos adquiridos en la exploración mencionada:
 
 <div align="left">
-<img src="Imagenes/Estimacion_inicial_tcp.png" alt="Estimacion inicial TCP" width="700" />
+<img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="900" />
 <br>
 <em></em>
 </div>
