@@ -69,9 +69,8 @@ Toda la implementación de código, incluyendo las interfaces gráficas desarrol
 
 A continuación, se describe el setup experimental con mayor detalle.
 
-## 3. Adquisición de Datos
 
-### 3.1 Calibración del Sistema
+## 3 Calibración del Sistema
 
 El primer paso en el proceso de adquisición consiste en la calibración del sistema, cuyo objetivo es determinar con precisión la posición y orientación del transductor respecto a cada pieza evaluada.
 
@@ -83,7 +82,7 @@ Con esta información, se aplica un análisis de regresión por mínimos cuadrad
 
 A continuación, se detallan los pasos específicos para llevar a cabo este proceso de calibración:
 
-#### 3.1.1 Interfaz Gráfica
+### 3.1 Interfaz Gráfica
 
 La interfaz principal utilizada para este proceso se muestra a continuación. Esta fue implementada en el script [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py). Para llevar a cabo la calibración descrita anteriormente, se siguen los siguientes pasos:
 
@@ -106,6 +105,8 @@ Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la F
 <br>
 <em>Figura 3: Interfaz Gráfica 2</em>
 </div>
+
+### 3.2 Alineamiento del transductor
 
 El botón **1** en la Figura [2] establece la conexión con el robot colaborativo. En la sección **4**, se definen los rangos de inclinación en los ejes *x* e *y*. En las pruebas realizadas, se configuraron los parámetros *sweep time = 2* y *measure time = 2*. Una vez realizados estos ajustes, se debe presionar el botón ***Sweep Theta***. Tras vincular la interfaz con el sistema SITAU, el sistema adquiere los datos necesarios y los almacena en formato .npy.
 
@@ -200,6 +201,8 @@ El procesamiento de los datos almacenados es igual al descrito anteriormente, es
 <br>
 <em></em>
 </div>
+
+## 4. Adquisición de Datos
 
 ## Documentación
 
