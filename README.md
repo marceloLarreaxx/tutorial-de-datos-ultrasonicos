@@ -138,7 +138,7 @@ El procesamiento de estos datos culmina en la obtención de los valores de posic
 Y se los redefine dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py):
 
 <div align="left">
-<img src="Imagenes/valores_ajustados_2.png" alt="valores_ajustados_2" width="700" />
+<img src="Imagenes/valores_ajustados_2.png" alt="valores_ajustados_2" width="900" />
 <br>
 <em></em>
 </div>
