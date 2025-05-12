@@ -161,7 +161,7 @@ Dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py), se c
 <em></em>
 </div>
 
-Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan los índices de cruce de umbral para cada uno de los cinco elementos activos del transductor en cada posición evaluada. Para cada posición, se determina el índice máximo y mínimo de cruce, se calcula su diferencia, y se identifica el par de inclinaciones que minimiza dicha diferencia. Este procedimiento permite encontrar la orientación del transductor que resulta más paralela posible al plano de referencia.
+Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan los índices de cruce de umbral para cada uno de los cinco elementos activos del transductor en cada posición evaluada. Para cada posición, se determina el índice máximo y mínimo de cruce, se calcula su diferencia, y se identifica el par de inclinaciones que minimiza dicha diferencia (***ang_min_xy***). Este procedimiento permite encontrar la orientación del transductor que resulta más paralela posible al plano de referencia.
 
 <div align="left">
 <img src="Imagenes/valores_ajustados_4.png" alt="valores_ajustados_4" width="900" />
@@ -169,7 +169,13 @@ Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan l
 <em></em>
 </div>
 
-Tras procesar estos resultados, se genera 
+Tras procesar estos resultados, se genera los nuevas orientaciones correspondientes a los ejes *x* e *y*.
+
+<div align="left">
+<img src="Imagenes/valores_ajustados_5.png" alt="valores_ajustados_5" width="900" />
+<br>
+<em></em>
+</div>
 
 ## Documentación
 
