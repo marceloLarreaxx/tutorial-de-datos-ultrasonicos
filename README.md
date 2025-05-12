@@ -177,6 +177,14 @@ Tras procesar estos resultados, se genera los nuevas orientaciones correspondien
 <em></em>
 </div>
 
+Y se los redefine dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py):
+
+<div align="left">
+<img src="Imagenes/valores_ajustados_6.png" alt="valores_ajustados_6" width="900" />
+<br>
+<em></em>
+</div>
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
