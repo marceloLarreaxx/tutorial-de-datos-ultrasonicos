@@ -127,13 +127,17 @@ Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se c
 <em></em>
 </div>
 
-El procesamiento de estos datos culmina en los valores de posición ajustados del TCP:
+El procesamiento de estos datos culmina en la obtención de los valores de posición ajustados para el TCP :
 
 <div align="left">
 <img src="Imagenes/valores_ajustados.png" alt="valores_ajustados" width="400" />
 <br>
 <em></em>
 </div>
+
+Y se los redefine dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py):
+
+
 
 Con esta modificación preliminar de ***TCP_OFFSET***, se lleva a cabo la misma exploración de ángulos en los ejes *x* e *y*, pero esta vez con el objetivo de corregir las inclinaciones del transductor con respecto a la pieza plana. Una vez almacenados los datos, se utiliza el script [post_processing_2.py](Calibracion_sistema/post_processing_2.py), que nos proporciona la primera corrección, es decir, en las coordenadas *x* e *y* (almacenadas en la variable ***rot1_xy***).
 
