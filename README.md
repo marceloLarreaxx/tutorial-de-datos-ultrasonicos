@@ -101,7 +101,7 @@ Una vez que la pieza de referencia (PLANO) ha sido posicionada dentro del conten
 
 Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [2], lo cual desplegará la siguiente interfaz:
 
-<div align="LEFT">
+<div align="center">
 <img src="Imagenes/GUI2.png" alt="GUI2" width="700" />
 <br>
 <em>Figura 3: Interfaz Gráfica 2</em>
@@ -113,7 +113,7 @@ Una vez obtenidos los datos de TOF de las adquisiciones, junto con la informaci�
 
 En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py), una primera estimación del los valores TCP:
 
-<div align="center">
+<div align="left">
 <img src="Imagenes/Estimacion_inicial_tcp.png" alt="Estimacion inicial TCP" width="700" />
 <br>
 <em>Figura 4: Estimacion inicial TCP</em>
