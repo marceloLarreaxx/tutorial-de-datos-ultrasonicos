@@ -161,6 +161,16 @@ Dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py), se c
 <em></em>
 </div>
 
+Apelando al script [methods.py](Calibracion_sistema/methods.py) se computan los índices de cruce de umbral para cada uno de los 5 elementos activos del transductor en cada una de las posiciones. Para cada posición, se obtiene el máximo y mínimo índice de cruce, se calcula la diferencia, y se devuelve el par de inclinaciones que reduzca dicha diferencia. Esto nos da la posición más parlela posible con respecto al plano de referencia. 
+
+<div align="left">
+<img src="Imagenes/valores_ajustados_4.png" alt="valores_ajustados_4" width="900" />
+<br>
+<em></em>
+</div>
+
+Tras procesar estos resultados, se genera 
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
