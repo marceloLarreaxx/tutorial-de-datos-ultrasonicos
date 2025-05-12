@@ -193,7 +193,7 @@ Con esto completado, se realiza una última exploración de posiciones, enfocada
 <em>Figura 4: Interfaz Gráfica 2</em>
 </div>
 
-El procesamiento de los datos almacenados es igual al descrito anteriormente, es decir, dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py) se debe obtener el ángulo que minimiza la diferencia de los índices de detección de tiempos de vuelo de casa elemento activo para cada posición, se computa las corrección correspondiente (***angs2***), y see actualizan los valores del vector TCP:
+El procesamiento de los datos almacenados es igual al descrito anteriormente, es decir, dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py) se debe obtener el ángulo que minimiza la diferencia de los índices de detección de tiempos de vuelo de casa elemento activo para cada posición, se computa las corrección correspondiente (***angs2***), y see actualizan los valores del vector TCP (dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py)):
 
 <div align="left">
 <img src="Imagenes/valores_ajustados_7.png" alt="valores_ajustados_7" width="900" />
