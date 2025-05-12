@@ -104,12 +104,20 @@ Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la F
 <div align="center">
 <img src="Imagenes/GUI2.png" alt="GUI2" width="700" />
 <br>
-<em>Figura 2: Interfaz Gráfica 2</em>
+<em>Figura 3: Interfaz Gráfica 2</em>
 </div>
 
 El botón **1** en la Figura [2] establece la conexión con el robot colaborativo. En la sección **4**, se definen los rangos de inclinación en los ejes *x* e *y*. En las pruebas realizadas, se configuraron los parámetros *sweep time = 2* y *measure time = 2*. Una vez realizados estos ajustes, se debe presionar el botón ***Sweep Theta***. Tras vincular la interfaz con el sistema SITAU, el sistema adquiere los datos necesarios y los almacena en formato .npy.
 
 Una vez obtenidos los datos de TOF de las adquisiciones, junto con la información correspondiente de cada par de inclinaciones, se utiliza el script [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py) para calcular las correcciones de los valores de posición en las coordenadas *x*, *y* y *z*, las cuales están definidas en la variable ***x_adjusted***. Después de realizar este ajuste, es necesario reemplazar estos valores en la variable ***TCP_OFFSET*** dentro del script [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py).
+
+En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py), una primera estimación del los valores TCP:
+
+<div align="center">
+<img src="Imagenes/Estimacion_inicial_tcp.png" alt="Estimacion inicial TCP" width="700" />
+<br>
+<em>Figura 4: Estimacion inicial TCP</em>
+</div>
 
 Con esta modificación preliminar de ***TCP_OFFSET***, se lleva a cabo la misma exploración de ángulos en los ejes *x* e *y*, pero esta vez con el objetivo de corregir las inclinaciones del transductor con respecto a la pieza plana. Una vez almacenados los datos, se utiliza el script [post_processing_2.py](Calibracion_sistema/post_processing_2.py), que nos proporciona la primera corrección, es decir, en las coordenadas *x* e *y* (almacenadas en la variable ***rot1_xy***).
 
