@@ -177,13 +177,15 @@ Tras procesar estos resultados, se genera los nuevas orientaciones correspondien
 <em></em>
 </div>
 
-Y se los redefine dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py):
+A partir de este ajuste, volvemos a [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py), para redefinir una vez más el vector TCP:
 
 <div align="left">
 <img src="Imagenes/valores_ajustados_6.png" alt="valores_ajustados_6" width="900" />
 <br>
 <em></em>
 </div>
+
+Ya con esto, se lleva a cabo una última exploración de posiciones para alinear la inclinación del transductor a lo largo del eje *z*. Esta búsqueda involucra definir un rango de inclinaciones en el eje *z*, manteniendo un ángulo fijo en la coordfenada *x*. La configuración se la determina en la sección 4 de la interfaz que se muestra en la figura 3. 
 
 ## Documentación
 
