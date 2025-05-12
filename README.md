@@ -107,7 +107,7 @@ Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la F
 <em>Figura 2: Interfaz Gráfica 2</em>
 </div>
 
-El botón **1** en la Figura [2] establece la conexión con el robot colaborativo. En la sección **4**, se definen los rangos de inclinación en los ejes *x* e *y*. En las pruebas realizadas, se configuraron los parámetros *sweep time = 1* y *measure time = 2*. Una vez realizados estos ajustes, se debe presionar el botón ***Sweep Theta***. Tras vincular la interfaz con el sistema SITAU, el sistema adquiere los datos necesarios y los almacena en formato .npy.
+El botón **1** en la Figura [2] establece la conexión con el robot colaborativo. En la sección **4**, se definen los rangos de inclinación en los ejes *x* e *y*. En las pruebas realizadas, se configuraron los parámetros *sweep time = 2* y *measure time = 2*. Una vez realizados estos ajustes, se debe presionar el botón ***Sweep Theta***. Tras vincular la interfaz con el sistema SITAU, el sistema adquiere los datos necesarios y los almacena en formato .npy.
 
 Una vez obtenidos los datos de TOF de las adquisiciones, junto con la información correspondiente de cada par de inclinaciones, se utiliza el script [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py) para calcular las correcciones de los valores de posición en las coordenadas *x*, *y* y *z*, las cuales están definidas en la variable ***x_adjusted***. Después de realizar este ajuste, es necesario reemplazar estos valores en la variable ***TCP_OFFSET*** dentro del script [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py).
 
