@@ -69,9 +69,6 @@ Toda la implementación de código, incluyendo las interfaces gráficas desarrol
 
 A continuación, se describe el setup experimental con mayor detalle.
 
-## Documentación
-Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
-
 ## 3. Adquisición de Datos
 
 ### 3.1 Calibración del Sistema
