@@ -172,7 +172,7 @@ Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan l
 Tras procesar estos resultados, se genera los nuevas orientaciones correspondientes a los ejes *x* e *y*.
 
 <div align="left">
-<img src="Imagenes/valores_ajustados_5.png" alt="valores_ajustados_5" width="900" />
+<img src="Imagenes/valores_ajustados_5.png" alt="valores_ajustados_5" width="700" />
 <br>
 <em></em>
 </div>
