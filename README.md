@@ -75,7 +75,7 @@ A continuación, se describe el setup experimental con mayor detalle.
 
 El primer paso en el proceso de adquisición consiste en la calibración del sistema, cuyo objetivo es determinar con precisión la posición y orientación del transductor respecto a cada pieza evaluada.
 
-Para ello, se comienza ajustando el Punto Central de la Herramienta (PCH) del brazo robótico. Este punto se define sobre el elemento central del transductor matricial y es fundamental, ya que todos los movimientos y trayectorias posteriores del robot se calcularán con base en dicha referencia.
+Para ello, se comienza ajustando el Punto Central de la Herramienta (TCP, por sus siglas en inglés) del brazo robótico. Este punto se define sobre el elemento central del transductor matricial y es fundamental, ya que todos los movimientos y trayectorias posteriores del robot se calcularán con base en dicha referencia.
 
 La calibración implica una secuencia predefinida de inclinaciones del transductor, ejecutadas mediante el brazo robótico. En cada una de estas posiciones, se adquieren datos de tiempo de vuelo (TOF). El procedimiento compara los tiempos de vuelo teóricos, calculados a partir de modelos geométricos, con los valores medidos durante la adquisición.
 
