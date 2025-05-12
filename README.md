@@ -122,7 +122,7 @@ En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_a
 Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se cargan los datos adquiridos en la exploración mencionada:
 
 <div align="left">
-<img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="700" />
+<img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="900" />
 <br>
 <em></em>
 </div>
@@ -130,7 +130,7 @@ Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se c
 El procesamiento de estos datos culmina en los valores de posición ajustados del TCP:
 
 <div align="left">
-<img src="Imagenes/valores_ajustados.png" alt="valores_ajustados" width="900" />
+<img src="Imagenes/valores_ajustados.png" alt="valores_ajustados" width="600" />
 <br>
 <em></em>
 </div>
