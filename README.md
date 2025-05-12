@@ -97,7 +97,7 @@ Una vez que la pieza de referencia (PLANO) ha sido posicionada dentro del conten
 
 **a)** establecer la conexión con el brazo robótico, y
 
-**b)** vincular la interfaz con el sistema de adquisición SITAU.
+**b)** vincular la interfaz con el sistema de adquisición SITAU (Cotón 1 en figura 1).
 
 Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [2], lo cual desplegará la siguiente interfaz:
 
