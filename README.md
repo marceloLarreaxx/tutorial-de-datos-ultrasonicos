@@ -313,7 +313,7 @@ Aquí se muestra una configuración específica de PLOs para el cilindro. Consid
 </div>
 <br><br>
 
-
+A continuación se muestra el uso de las funciones mencionadas, una vez definidos los límites de las trayectorias. La función ***función methods.filter_list()*** agrega una restricción adicional: si la rotación en el eje z supera los 25 grados, la rotación en el eje y no puede ser mayor a 15 grados.
 
 ## Documentación
 
