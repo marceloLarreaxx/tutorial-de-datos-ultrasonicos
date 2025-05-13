@@ -346,6 +346,10 @@ Es necesario que exista una carpeta específica previamente generada, donde se a
 </div>
 <br><br>
 
+Son estoas archivos los que se leerán en el proceso de entrenamiento de la red y de su evaluación. 
+
+## 6. Entrenamiento CNN
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
