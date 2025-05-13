@@ -321,7 +321,7 @@ El resto del script [barrido_z_rx_ry.py]("Adquisicion_datos/barrido_z_rx_ry.py")
 
 Esta etapa tiene como objetivo transformar las adquisiciones crudas en un conjunto de datos estructurado, apto para el entrenamiento de una red neuronal convolucional. El procedimiento se lleva a cabo mediante el script de Python [crear_subdata_sparse.py](Post_procesamiento/crear_subdata_sparse.py) y un archivo en formato .json, que contiene la información específica requerida para el postprocesamiento.
 
-Este archivo .json debe definirse individualmente para cada pieza evaluada y contiene información clave utilizada por las funciones que calculan las etiquetas (TOFs teóricos) para cada imagen. Por ejemplo, incluye datos como la curvatura cóncava o convexa de la pieza, y sus radios correspondientes, y en el caso de los cilindros.
+Este archivo .json debe definirse individualmente para cada pieza evaluada y contiene información clave utilizada por las funciones que calculan las etiquetas (TOFs teóricos) para cada imagen. Por ejemplo, incluye datos como la curvatura cóncava o convexa de la pieza, y sus radios correspondientes, y en el caso de los cilindros. Un ejemplo se lo encuentra en [crear_subdata_cil35.json5](Post_procesamiento/crear_subdata_cil35.json5)
 
 - El script realiza las siguientes tareas:
 
