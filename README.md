@@ -292,6 +292,7 @@ Una vez determinada, la **Δz** se almacena en un archivo en formato .npy, presi
 El procedimiento para el registro de los datos crudos está implementado en el script [barrido_z_rx_ry.py]("Adquisicion_datos/barrido_z_rx_ry.py"). Las configuraciones clave a considerar son las siguientes:
 
 **a)** Definición del vector TCP calibrado, el cual debe establecerse previamente según los pasos descritos en la sección anterior.
+
 **b)** El script [methods.py]("Calibracion_sistema/methods.py") incluye funciones personalizadas para generar una secuencia de PLOs (Posiciones y Orientaciones del transductor). Estas secuencias se definen como combinaciones aleatorias uniformes de traslaciones e inclinaciones, y son específicas para cada pieza evaluada (función ***methods.get_list_of_positions2()***). Por ejemplo, en el caso del cilindro mencionado anteriormente, los distintos PLOs exploran variaciones en las coordenadas *z* e *y*, así como en las rotaciones sobre los ejes *z* e *y*. Adicionalmente, se incorpora una restricción que condiciona la posición en el eje *z* cuando la inclinanción en el eje *y* es muy pronunciada. En estos casos, solo se permiten inclinaciones de hasta 3 grados. Esta condición se gestiona mediante la ***función methods.filter_list()***.
 
 ## Documentación
