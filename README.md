@@ -237,18 +237,20 @@ En dicha interfaz, la línea verde representa el tiempo de vuelo teórico, corre
 El cálculo de los tiempos de vuelo teóricos requiere previamente determinar un valor clave: la distancia del transductor al plano de referencia (en el eje z), sobre el cual se ubican las piezas evaluadas. A esta distancia se la denomina **Δz**. 
 
 El procedimiento comienza con la definición de una posición inicial conocida, desde la cual se calculará dicha distancia. Por ejemplo, se puede ubicar el transductor en una posición con coordenada z = 100 mm, lo cual puede supervisarse mediante la interfaz gráfica 2 (ver Figura 8, recuadro rojo). Una vez decidida dicha ubicación se debe presionar el botón ***Set initial home*** para concretarla como posición de referencia. A partir de esta punto, se desciende lentamente el transductor hasta que haga un leve contacto con el plano de referencia. La distancia recorrida durante este descenso se refleja también en la interfaz 2, como se muestra en la Figura 9.
-
+<br><br>
 <div align="center">
 <img src="Imagenes/home_init_z.png" alt="home_init_z" width="700" />
 <br>
 <em>Figura 8: Valores desplegados de posición e inclinación del transductor</em>
 </div>
 
+<br><br>
 <div align="center">
 <img src="Imagenes/delta_z.png" alt="delta_z" width="300" />
 <br>
 <em>Figura 9: Valor desplegado de Δz</em>
 </div>
+<br><br>
 
 Una vez determinada, la **Δz** se almacena en un archivo en formato .npy, para ser utilizada posteriormente en los cálculos de los TOFs teóricos.
 
