@@ -317,6 +317,10 @@ A continuación se muestra el uso de las funciones mencionadas, una vez definido
 
 El resto del script [barrido_z_rx_ry.py]("Adquisicion_datos/barrido_z_rx_ry.py") se encarga de establecer la conexión con el equipo SITAU, definir la configuración adecuada y ejecutar el barrido de trayectorias. En cada trayecto, se adquiere una imagen por cada elemento activo de disparo. Por lo tanto, si hay 9 elementos activos de disparo y se realizan 10 PLOs, se almacenarán un total de 9 x 10 = 90 imágenes
 
+## 5. Post-procesamiento de datos crudos
+
+
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
