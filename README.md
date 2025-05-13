@@ -297,7 +297,7 @@ El procedimiento para el registro de los datos crudos está implementado en el s
 
 <br><br>
 <div align="center">
-<img src="Imagenes/posiciones_barrido.png" alt="posiciones_barrido" width="300" />
+<img src="Imagenes/posiciones_barrido.png" alt="posiciones_barrido" width="700" />
 <br>
 <em></em>
 </div>
