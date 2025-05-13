@@ -245,7 +245,7 @@ El procedimiento comienza con la definición de una posición inicial conocida, 
 </div>
 
 <div align="center">
-<img src="Imagenes/delta_z.png" alt="delta_z" width="500" />
+<img src="Imagenes/delta_z.png" alt="delta_z" width="300" />
 <br>
 <em>Figura 9: Valor desplegado de Δz</em>
 </div>
