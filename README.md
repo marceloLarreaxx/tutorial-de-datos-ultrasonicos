@@ -232,7 +232,7 @@ Una parte fundamental del proceso de adquisición de datos es la verificación d
 <em>Figura 7: Verificación de adquisisción y TOFs teóricos</em>
 </div>
 
-En dicha interfaz, la línea verde representa el tiempo de vuelo teórico, correspondiente al etiquetado de los datos, aspecto clave para el posterior entrenamiento de la red neuronal convolucional. La validez del cálculo de estos tiempos teóricos se comprueba en distintas combinaciones de posición y orientación del transductor (PLO, por sus siglas en inglés). Esto implica mover el transductor a diversas combinaciones de posiciones e inclinaciones, y realizar adquisiciones correspondientes desde cualquier elemento activo disponible del transductor (indicado en el recuadro rojo de la figura).
+En dicha interfaz, la línea verde representa el tiempo de vuelo teórico, correspondiente al etiquetado de los datos, aspecto clave para el posterior entrenamiento de la red neuronal convolucional. La validez del cálculo de estos tiempos teóricos se comprueba en distintas combinaciones de posición y orientación del transductor (PLO, por sus siglas en inglés). Esto implica mover el transductor a diversas combinaciones de posiciones e inclinaciones, y realizar adquisiciones correspondientes para cualquier elemento activo disponible del transductor (indicado en el recuadro rojo de la figura).
 
 ## Documentación
 
