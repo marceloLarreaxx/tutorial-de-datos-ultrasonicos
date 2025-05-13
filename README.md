@@ -224,6 +224,14 @@ En el caso del cilindro mostrado, el patrón de señales esperado corresponde a 
 <em>Figura 6: Evaluación alineamiento transductor-cilindro</em>
 </div>
 
+Una parte fundamental del proceso de adquisición de datos es la verificación del etiquetado automático de los tiempos de vuelo (TOF) detectados. Una vez asegurado el paralelismo entre la pieza y el transductor, esta verificación se realiza mediante la interfaz mostrada en la Figura 7, la cual se despliega al presionar el botón #14 de la interfaz gráfica principal (ver Figura 2).
+
+<div align="center">
+<img src="Imagenes/comprobacion_tof_1.png" alt="comprobacion_tof_1" width="700" />
+<br>
+<em>Figura 7: Verificación de adquisisción y TOFs teóricos</em>
+</div>
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
