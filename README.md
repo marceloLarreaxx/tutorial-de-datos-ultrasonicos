@@ -216,7 +216,7 @@ Para este procedimiento, se utiliza el script [alinear_app_2]("Calibracion_siste
 <em>Figura 5: Esquema alineamiento transductor-cilindro</em>
 </div>
 
-En el caso del cilindro mostrado, el patrón de señales esperado corresponde a una coincidencia de TOFs en las cuatro esquinas y un tiempo de vuelo menor en el centro del transductor (ver Figura 6).
+En el caso del cilindro mostrado, el patrón de señales esperado corresponde a una coincidencia de TOFs en las cuatro esquinas y un tiempo de vuelo menor en el centro del transductor (ver Figura 6). Los índices de cruce de señal se indican en los recuadros de colores, donde el cuadro blanco corresponde al elemento central del transductor. 
 
 <div align="center">
 <img src="Imagenes/alineamiento_cilindro_1.png" alt="alineamiento_cilindro_1" width="700" />
