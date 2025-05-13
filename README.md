@@ -224,13 +224,15 @@ En el caso del cilindro mostrado, el patrón de señales esperado corresponde a 
 <em>Figura 6: Evaluación alineamiento transductor-cilindro</em>
 </div>
 
-Una parte fundamental del proceso de adquisición de datos es la verificación del etiquetado automático de los tiempos de vuelo (TOF) detectados. Una vez asegurado el paralelismo entre la pieza y el transductor, esta verificación se realiza mediante la interfaz mostrada en la Figura 7, la cual se despliega al presionar el botón #14 de la interfaz gráfica principal (ver Figura 2).
+Una parte fundamental del proceso de adquisición de datos es la verificación del etiquetado automático de los tiempos de vuelo (TOF) detectados. Una vez asegurado el paralelismo entre la pieza y el transductor, esta verificación se realiza mediante la interfaz mostrada en la Figura 7, la cual se despliega al presionar el botón #14 de la interfaz gráfica principal (***Image Acquisition***), ver Figura 2.
 
 <div align="center">
 <img src="Imagenes/comprobacion_tof_1.png" alt="comprobacion_tof_1" width="700" />
 <br>
 <em>Figura 7: Verificación de adquisisción y TOFs teóricos</em>
 </div>
+
+En dicha interfaz, la línea verde representa el tiempo de vuelo teórico, correspondiente al etiquetado de los datos, aspecto clave para el posterior entrenamiento de la red neuronal convolucional. La validez del cálculo de estos tiempos teóricos se comprueba en distintas combinaciones de posición y orientación del transductor (PLO, por sus siglas en inglés). Esto implica mover el transductor a diversas combinaciones de posiciones e inclinaciones, y realizar adquisiciones correspondientes desde cualquier elemento activo disponible del transductor (indicado en el recuadro rojo de la figura).
 
 ## Documentación
 
