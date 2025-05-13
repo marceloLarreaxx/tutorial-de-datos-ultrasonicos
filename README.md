@@ -234,9 +234,17 @@ Una parte fundamental del proceso de adquisición de datos es la verificación d
 
 En dicha interfaz, la línea verde representa el tiempo de vuelo teórico, correspondiente al etiquetado de los datos, aspecto clave para el posterior entrenamiento de la red neuronal convolucional. La validez del cálculo de estos tiempos teóricos se comprueba en distintas combinaciones de posición y orientación del transductor (PLO, por sus siglas en inglés). Esto implica mover el transductor a diversas combinaciones de posiciones e inclinaciones, y realizar adquisiciones correspondientes para cualquier elemento activo disponible del transductor (indicado en el recuadro rojo de la figura). El cálculo correcto de estos valores teóricos se verifica con la correcta posición de la línea verde sobre los ecos detectados. 
 
-El cálculo de los tiempos de vuelo teóricos requiere previamente determinar un valor clave: la distancia del transductor al plano de referencia (en el eje z), sobre el cual se ubican las piezas evaluadas. A esta distancia se la denomina Δz.
+El cálculo de los tiempos de vuelo teóricos requiere previamente determinar un valor clave: la distancia del transductor al plano de referencia (en el eje z), sobre el cual se ubican las piezas evaluadas. A esta distancia se la denomina **Δz**. 
 
+El procedimiento comienza con la definición de una posición inicial conocida, desde la cual se calculará dicha distancia. Por ejemplo, se puede ubicar el transductor en una posición con coordenada z = 100 mm, lo cual puede supervisarse mediante la interfaz gráfica 2 (ver Figura 8, recuadro rojo). Una vez decidida dicha ubicación se debe presionar el botón ***Set initial home*** para concretarla como posición de referencia. A partir de esta punto, se desciende lentamente el transductor hasta que haga un leve contacto con el plano de referencia. La distancia recorrida durante este descenso se refleja también en la interfaz 2, como se muestra en la Figura 9.
 
+<div align="center">
+<img src="Imagenes/home_init_z.png" alt="home_init_z" width="700" />
+<br>
+<em>Figura 7: Valores desplegados de posición e inclinación del transductor</em>
+</div>
+
+Una vez determinada, la **Δz** se almacena en un archivo en formato .npy, para ser utilizada posteriormente en los cálculos de los TOFs teóricos.
 
 ## Documentación
 
