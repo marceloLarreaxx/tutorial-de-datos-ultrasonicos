@@ -59,11 +59,13 @@ Para la ejecución de trayectorias precisas sobre las piezas de ensayo, se utili
 
 El conjunto de pruebas se realizó sobre seis piezas de geometría diversa, seleccionadas con el objetivo de proporcionar un desafío adecuado para evaluar el desempeño de las redes neuronales en etapas posteriores (Figura 2.1)
 
+<br><br>
 <div align="center">
 <img src="Imagenes/fig_2_1.png" alt="Piezas de referencia" width="500" />
 <br>
 <em>Figura 1: Piezas de referencia</em>
 </div>
+<br><br>
 
 Toda la implementación de código, incluyendo las interfaces gráficas desarrolladas para esta etapa, se realizó en Python, utilizando como entorno de desarrollo integrado PyCharm.
 
@@ -86,11 +88,13 @@ A continuación, se detallan los pasos específicos para llevar a cabo este proc
 
 La interfaz principal utilizada para este proceso se muestra a continuación. Esta fue implementada en el script [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py). Para llevar a cabo la calibración descrita anteriormente, se siguen los siguientes pasos:
 
+<br><br>
 <div align="center">
 <img src="Imagenes/GUI1.png" alt="GUI1" width="700" />
 <br>
 <em>Figura 2: Interfaz Gráfica 1</em>
 </div>
+<br><br>
 
 Una vez que la pieza de referencia (PLANO) ha sido posicionada dentro del contenedor para el ensayo por inmersión, se deben realizar dos acciones iniciales:
 
@@ -100,11 +104,13 @@ Una vez que la pieza de referencia (PLANO) ha sido posicionada dentro del conten
 
 Para realizar el paso **a**, se debe presionar el botón **13** mostrado en la Figura [2], lo cual desplegará la siguiente interfaz:
 
+<br><br>
 <div align="center">
 <img src="Imagenes/GUI2.png" alt="GUI2" width="700" />
 <br>
 <em>Figura 3: Interfaz Gráfica 2</em>
 </div>
+<br><br>
 
 ### 3.2 Alineamiento del transductor
 
@@ -114,35 +120,43 @@ Una vez obtenidos los datos de TOF de las adquisiciones, junto con la informaci�
 
 En detalle, se tiene, dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py), una primera estimación del los valores TCP:
 
+<br><br>
 <div align="left">
 <img src="Imagenes/Estimacion_inicial_tcp.png" alt="Estimacion inicial TCP" width="700" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 Dentro de [ajuste_del_centro.py](Calibracion_sistema/ajuste_del_centro.py), se cargan los datos adquiridos en la exploración mencionada:
 
+<br><br>
 <div align="left">
 <img src="Imagenes/carga_de_datos_1.png" alt="carga_de_datos_1" width="900" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 El procesamiento de estos datos culmina en la obtención de los valores de posición ajustados para el TCP :
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados.png" alt="valores_ajustados" width="400" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 Y se los redefine dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py):
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados_2.png" alt="valores_ajustados_2" width="900" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 Con esta modificación preliminar de ***TCP_OFFSET***, se lleva a cabo la misma exploración de ángulos en los ejes *x* e *y*, pero esta vez con el objetivo de corregir las inclinaciones del transductor con respecto a la pieza plana. Una vez almacenados los datos, se utiliza el script [post_processing_2.py](Calibracion_sistema/post_processing_2.py), que nos proporciona la primera corrección, es decir, en las coordenadas *x* e *y* (almacenadas en la variable ***rot1_xy***).
 
@@ -156,51 +170,63 @@ Por ejemplo, si en el primer paso los ángulos óptimos son *x = 2* y *y = 0*, l
 
 Dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py), se cargan los datos adquiridos en la exploración mencionada:
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados_3.png" alt="valores_ajustados_3" width="900" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 Utilizando el script [methods.py](Calibracion_sistema/methods.py), se calculan los índices de cruce de umbral para cada uno de los cinco elementos activos del transductor en cada posición evaluada. Para cada posición, se determina el índice máximo y mínimo de cruce (o de detección de eco), se calcula su diferencia, y se identifica el par de inclinaciones que minimiza dicha diferencia (***ang_min_xy***). Este procedimiento permite encontrar la orientación del transductor que resulta más paralela posible al plano de referencia.
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados_4.png" alt="valores_ajustados_4" width="900" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 Tras procesar estos resultados, se genera los nuevas orientaciones correspondientes a los ejes *x* e *y* (***angs2***).
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados_5.png" alt="valores_ajustados_5" width="700" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 A partir de este ajuste, volvemos a [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py), para redefinir una vez más el vector TCP:
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados_6.png" alt="valores_ajustados_6" width="900" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 Con esto completado, se realiza una última exploración de posiciones, enfocada en alinear la inclinación del transductor a lo largo del eje *z*. Esta búsqueda consiste en definir un rango de inclinaciones en dicho eje, mientras se mantiene un ángulo fijo en la coordenada *x*. La configuración correspondiente se establece desde la sección 4 de la interfaz mostrada en la Figura 3. Es importante tener en cuenta que los elementos activos del transductor se definen en el campo ***Assign channels*** (ver Figura 4), y corresponden a una fila completa del transductor.
 
+<br><br>
 <div align="center">
 <img src="Imagenes/GUI2_1.png" alt="GUI2_1" width="700" />
 <br>
 <em>Figura 4: Interfaz Gráfica 2</em>
 </div>
+<br><br>
 
 El procesamiento de los datos almacenados es igual al descrito anteriormente, es decir, dentro de [post_processing_2.py](Calibracion_sistema/post_processing_2.py) se debe obtener el ángulo que minimiza la diferencia de los índices de detección de tiempos de vuelo de casa elemento activo para cada posición, se computa las corrección correspondiente (***angs2***), y see actualizan los valores del vector TCP (dentro de [alinear_app_2.py](Calibracion_sistema/alinear_app_2.py)):
 
+<br><br>
 <div align="left">
 <img src="Imagenes/valores_ajustados_7.png" alt="valores_ajustados_7" width="900" />
 <br>
 <em></em>
 </div>
+<br><br>
 
 ## 4. Adquisición de Datos
 
@@ -210,33 +236,40 @@ Los pasos a tomar en este punto son los siguientes:
 
 Para este procedimiento, se utiliza el script [alinear_app_2]("Calibracion_sistema/alinear_app_2.py"), aplicándolo a todas las piezas evaluadas. A modo ilustrativo, a continuación se describe únicamente el caso de uno de los cilindros. Una vez que la pieza ha sido posicionada dentro del contenedor, se busca alinear el centro del transductor con el eje axial del cilindro. El proceso consiste en activar cinco elementos del transductor: sus cuatro esquinas y el elemento central. A partir de los tiempos de vuelo (TOF) de los ecos recibidos por estos elementos, se determina la posición óptima de alineación (ver Figura 5).
 
+<br><br>
 <div align="center">
 <img src="Imagenes/esquema_cilindro_1.png" alt="esquema_cilindro_1" width="700" />
 <br>
 <em>Figura 5: Esquema alineamiento transductor-cilindro</em>
 </div>
+<br><br>
 
 En el caso del cilindro mostrado, el patrón de señales esperado corresponde a una coincidencia de TOFs en las cuatro esquinas y un tiempo de vuelo menor en el centro del transductor (ver Figura 6). Los índices de cruce de señal se indican en los recuadros de colores, donde el cuadro blanco corresponde al elemento central del transductor. 
 
+<br><br>
 <div align="center">
 <img src="Imagenes/alineamiento_cilindro_1.png" alt="alineamiento_cilindro_1" width="700" />
 <br>
 <em>Figura 6: Evaluación alineamiento transductor-cilindro</em>
 </div>
+<br><br>
 
 Una parte fundamental del proceso de adquisición de datos es la verificación del etiquetado automático de los tiempos de vuelo (TOF) detectados. Una vez asegurado el paralelismo entre la pieza y el transductor, esta verificación se realiza mediante la interfaz mostrada en la Figura 7, la cual se despliega al presionar el botón #14 de la interfaz gráfica principal (***Image Acquisition***), ver Figura 2.
 
+<br><br>
 <div align="center">
 <img src="Imagenes/comprobacion_tof_1.png" alt="comprobacion_tof_1" width="700" />
 <br>
 <em>Figura 7: Verificación de adquisisción y TOFs teóricos</em>
 </div>
+<br><br>
 
 En dicha interfaz, la línea verde representa el tiempo de vuelo teórico, correspondiente al etiquetado de los datos, aspecto clave para el posterior entrenamiento de la red neuronal convolucional. La validez del cálculo de estos tiempos teóricos se comprueba en distintas combinaciones de posición y orientación del transductor (PLO, por sus siglas en inglés). Esto implica mover el transductor a diversas combinaciones de posiciones e inclinaciones, y realizar adquisiciones correspondientes para cualquier elemento activo disponible del transductor (indicado en el recuadro rojo de la figura). El cálculo correcto de estos valores teóricos se verifica con la correcta posición de la línea verde sobre los ecos detectados. 
 
 El cálculo de los tiempos de vuelo teóricos requiere previamente determinar un valor clave: la distancia del transductor al plano de referencia (en el eje z), sobre el cual se ubican las piezas evaluadas. A esta distancia se la denomina **Δz**. 
 
 El procedimiento comienza con la definición de una posición inicial conocida, desde la cual se calculará dicha distancia. Por ejemplo, se puede ubicar el transductor en una posición con coordenada z = 100 mm, lo cual puede supervisarse mediante la interfaz gráfica 2 (ver Figura 8, recuadro rojo). Una vez decidida dicha ubicación se debe presionar el botón ***Set initial home*** para concretarla como posición de referencia. A partir de esta punto, se desciende lentamente el transductor hasta que haga un leve contacto con el plano de referencia. La distancia recorrida durante este descenso se refleja también en la interfaz 2, como se muestra en la Figura 9.
+
 <br><br>
 <div align="center">
 <img src="Imagenes/home_init_z.png" alt="home_init_z" width="700" />
