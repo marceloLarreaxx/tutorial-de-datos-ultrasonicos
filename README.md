@@ -234,7 +234,7 @@ Los pasos a tomar en este punto son los siguientes:
 
 ### 4.1 Alineamiento pieza-transductor
 
-Para este procedimiento, se utiliza el script [alinear_app_2]("Calibracion_sistema/alinear_app_2.py"), aplicándolo a todas las piezas evaluadas. A modo ilustrativo, a continuación se describe únicamente el caso de uno de los cilindros. Una vez que la pieza ha sido posicionada dentro del contenedor, se busca alinear el centro del transductor con el eje axial del cilindro. El proceso consiste en activar cinco elementos del transductor: sus cuatro esquinas y el elemento central. A partir de los tiempos de vuelo (TOF) de los ecos recibidos por estos elementos, se determina la posición óptima de alineación (ver Figura 5).
+Para este procedimiento, se utiliza el script [alinear_app_2.py]("Calibracion_sistema/alinear_app_2.py"), aplicándolo a todas las piezas evaluadas. A modo ilustrativo, a continuación se describe únicamente el caso de uno de los cilindros. Una vez que la pieza ha sido posicionada dentro del contenedor, se busca alinear el centro del transductor con el eje axial del cilindro. El proceso consiste en activar cinco elementos del transductor: sus cuatro esquinas y el elemento central. A partir de los tiempos de vuelo (TOF) de los ecos recibidos por estos elementos, se determina la posición óptima de alineación (ver Figura 5).
 
 <br><br>
 <div align="center">
@@ -289,7 +289,10 @@ Una vez determinada, la **Δz** se almacena en un archivo en formato .npy, presi
 
 ### 4.2 Registro de señales ultrasónicas
 
+El procedimiento para el registro de los datos crudos está implementado en el script [barrido_z_rx_ry.py]("Adquisicion_datos/barrido_z_rx_ry.py"). Las configuraciones clave a considerar son las siguientes:
 
+**a)** Definición del vector TCP calibrado, el cual debe establecerse previamente según los pasos descritos en la sección anterior.
+**b)** El script [methods.py]("Calibracion_sistema/methods.py") incluye funciones personalizadas para generar una secuencia de PLOs (Posiciones y Orientaciones del transductor). Estas secuencias se definen como combinaciones aleatorias uniformes de traslaciones e inclinaciones, y son específicas para cada pieza evaluada (función ***methods.get_list_of_positions2()***). 
 
 ## Documentación
 
