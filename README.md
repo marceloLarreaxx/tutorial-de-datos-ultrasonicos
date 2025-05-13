@@ -241,13 +241,13 @@ El procedimiento comienza con la definición de una posición inicial conocida, 
 <div align="center">
 <img src="Imagenes/home_init_z.png" alt="home_init_z" width="700" />
 <br>
-<em>Figura 7: Valores desplegados de posición e inclinación del transductor</em>
+<em>Figura 8: Valores desplegados de posición e inclinación del transductor</em>
 </div>
 
 <div align="center">
 <img src="Imagenes/delta_z.png" alt="delta_z" width="500" />
 <br>
-<em>Figura 7: Valor desplegado de Δz</em>
+<em>Figura 9: Valor desplegado de Δz</em>
 </div>
 
 Una vez determinada, la **Δz** se almacena en un archivo en formato .npy, para ser utilizada posteriormente en los cálculos de los TOFs teóricos.
