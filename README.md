@@ -305,6 +305,16 @@ El procedimiento para el registro de los datos crudos está implementado en el s
 
 Aquí se muestra una configuración específica de PLOs para el cilindro. Considerando una posición inicial con 100 mm en el componente *z*, se ha definido un desplazamiento descendente mínimo de 47 mm y uno máximo de 75 mm. En el eje *y*, el transductor se moverá un máximo de 0.5 mm. Las rotaciones sobre los ejes *y* y *z* abarcan los rangos de 0 a 20 y 0 a 30 grados, respectivamente. Es importante señalar que el valor límite de traslación en el eje *z* es de 70 mm; por debajo de este umbral, la inclinación máxima en el eje y será de 2 grados.
 
+<br><br>
+<div align="left">
+<img src="Imagenes/funciones_PLOs.png" alt="funciones_PLOs" width="900" />
+<br>
+<em></em>
+</div>
+<br><br>
+
+
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
