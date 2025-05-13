@@ -336,6 +336,16 @@ Este archivo .json debe definirse individualmente para cada pieza evaluada y con
 
 - Serializa y guarda la información procesada en archivos .pickle.
 
+Es necesario que exista una carpeta específica previamente generada, donde se almacenarán los archivos .pickle correspondientes a cada pieza. La Figura 9 muestra un ejemplo de esta estructura de almacenamiento. Los nombres de cada archivo .pickle se definen explícitamente dentro del archivo .json.
+
+<br><br>
+<div align="left">
+<img src="Imagenes/Carpeta_pickles.png" alt="Carpeta_pickles" width="900" />
+<br>
+<em></em>
+</div>
+<br><br>
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
