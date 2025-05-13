@@ -323,8 +323,17 @@ Esta etapa tiene como objetivo transformar las adquisiciones crudas en un conjun
 
 Este archivo .json debe definirse individualmente para cada pieza evaluada y contiene información clave utilizada por las funciones que calculan las etiquetas (TOFs teóricos) para cada imagen. Por ejemplo, incluye datos como la curvatura cóncava o convexa de la pieza, y sus radios correspondientes, y en el caso de los cilindros.
 
-El script realiza las siguientes tareas:
+- El script realiza las siguientes tareas:
 
+- Carga cada imagen adquirida en cada PLO, junto con la información asociada a dicho PLO.
+
+- Aplica un filtro pasabanda a cada imagen.
+
+- Carga el valor estimado de delta-z, necesario para el cálculo correcto de los TOFs teóricos.
+
+- Divide el conjunto completo de datos en entrenamiento, validación y prueba.
+
+- Serializa y guarda la información procesada en archivos .pickle.
 
 ## Documentación
 
