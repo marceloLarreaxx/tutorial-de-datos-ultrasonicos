@@ -287,6 +287,10 @@ El procedimiento comienza con la definición de una posición inicial conocida, 
 
 Una vez determinada, la **Δz** se almacena en un archivo en formato .npy, presionando el botón ***Save Δz***, para ser utilizada posteriormente en los cálculos de los TOFs teóricos.
 
+### 4.2 Registro de señales ultrasónicas
+
+
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
