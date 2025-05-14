@@ -336,13 +336,13 @@ Este archivo .json debe definirse individualmente para cada pieza evaluada y con
 
 - Serializa y guarda la información procesada en archivos .pickle.
 
-Es necesario que exista una carpeta específica previamente generada, donde se almacenarán los archivos .pickle correspondientes a cada pieza. La Figura 9 muestra un ejemplo de esta estructura de almacenamiento. Los nombres de cada archivo .pickle se definen explícitamente dentro del archivo .json.
+Es necesario que exista una carpeta específica previamente generada, donde se almacenarán los archivos .pickle correspondientes a cada pieza. La Figura 10 muestra un ejemplo de esta estructura de almacenamiento. Los nombres de cada archivo .pickle se definen explícitamente dentro del archivo .json.
 
 <br><br>
-<div align="left">
+<div align="center">
 <img src="Imagenes/Carpeta_pickles.png" alt="Carpeta_pickles" width="900" />
 <br>
-<em></em>
+<em>Figura 10: Archivos .pickle para entrenamiento de red</em>
 </div>
 <br><br>
 
@@ -350,9 +350,15 @@ Son estos archivos los que se leerán en el proceso de entrenamiento de la red y
 
 ## 6. Entrenamiento CNN
 
-Esta etapa corresponde al entrenamiento de la red neuronal, y se ejecuta mediante el script [entrenar_V-net.py]("Entrenamiento_cnn/entrenar_V-net.py"). La red utilizada es una red neuronal convolucional enfocada en la segmentación de imágenes 3D, diseñada específicamente para el tipo de imágenes ultrasónicas adquiridas. Su arquitectura es de tipo autoencoder (ver Figura 10) e implementada en el [custom_vnet.py]("Entrenamiento_cnn/custom_vnet.py").
+Esta etapa corresponde al entrenamiento de la red neuronal, y se ejecuta mediante el script [entrenar_V-net.py]("Entrenamiento_cnn/entrenar_V-net.py"). La red utilizada es una red neuronal convolucional enfocada en la segmentación de imágenes 3D, diseñada específicamente para el tipo de imágenes ultrasónicas adquiridas. Su arquitectura es de tipo autoencoder (ver Figura 11) e implementada en el [custom_vnet.py]("Entrenamiento_cnn/custom_vnet.py").
 
-
+<br><br>
+<div align="center">
+<img src="Imagenes/v_net_arq.png" alt="v_net_arq" width="900" />
+<br>
+<em>Figura 11: Arquitectura red personalizada</em>
+</div>
+<br><br>
 
 ## Documentación
 
