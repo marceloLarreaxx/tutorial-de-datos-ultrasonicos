@@ -354,7 +354,7 @@ Esta etapa corresponde al entrenamiento de la red neuronal, y se ejecuta mediant
 
 <br><br>
 <div align="center">
-<img src="Imagenes/v_net_arq.png" alt="v_net_arq" width="900" />
+<img src="Imagenes/v_net_arq.png" alt="v_net_arq" width="500" />
 <br>
 <em>Figura 11: Arquitectura red personalizada</em>
 </div>
