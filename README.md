@@ -374,6 +374,8 @@ Antes de instanciar y entrenar la red, es necesario preprocesar las adquisicione
   - Sus correspondientes TOFs teóricos.
   - El ground truth, definido como una máscara binaria generada a partir de los valores teóricos de TOF.
 
+La generación de estas máscaras se realiza mediante el script [merge_datasets.py]("Entrenamiento_cnn/merge_datasets.py"), en conjunto con funciones definidas en [cnnsurf_funcs.py]("Post_procesamiento/cnnsurf_funcs.py"), específicamente ***crear_mask_labels()***. Esta función construye una imagen en la que se asigna el valor 1 a una franja de píxeles ubicada por encima del valor de TOF teórico, y 0 al resto, constituyendo así la etiqueta binaria que representa la ubicación de la superficie de cada pieza.
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
