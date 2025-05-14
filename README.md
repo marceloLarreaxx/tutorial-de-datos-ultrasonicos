@@ -376,6 +376,31 @@ Antes de instanciar y entrenar la red, es necesario preprocesar las adquisicione
 
 La generación de estas máscaras se realiza mediante el script [merge_datasets.py]("Entrenamiento_cnn/merge_datasets.py"), en conjunto con funciones definidas en [cnnsurf_funcs.py]("Post_procesamiento/cnnsurf_funcs.py"), específicamente ***crear_mask_labels()***. Esta función construye una imagen en la que se asigna el valor 1 a una franja de píxeles ubicada por encima del valor de TOF teórico, y 0 al resto, constituyendo así la etiqueta binaria que representa la ubicación de la superficie de cada pieza.
 
+### 6.1 Evaluando datos de prueba
+
+Una vez completado el entrenamiento, es posible visualizar el desempeño de la red sobre el conjunto de prueba. Para ello, se sigue el siguiente procedimiento:
+
+- Se utiliza el archivo de configuración [test_V-net.json5]("Entrenamiento_cnn/test_V-net.json5"), el cual especifica las rutas y nombres de los datos asignados al conjunto de prueba. A partir de este archivo, se realiza la subdivisión de los datos en tensores, adecuados para ser procesados por TensorFlow.
+
+<br><br>
+<div align="left">
+<img src="Imagenes/test_vnet_1.png" alt="test_vnet_1" width="900" />
+<br>
+<em></em>
+</div>
+<br><br>
+
+- Posteriormente, se carga el modelo previamente entrenado. La ruta correspondiente se encuentra definida también dentro del archivo .json.
+- Con el modelo ya cargado, junto con las imágenes de prueba y sus respectivos tiempos de vuelo teóricos, es posible visualizar el desempeño de la red para cada muestra individual. Esto se realiza a través de la clase ***ImageBrowser()***, definida en el script [cnnsurf_plot.py]("Post_procesamiento/cnnsurf_plot.py").
+
+<br><br>
+<div align="left">
+<img src="Imagenes/test_vnet_2.png" alt="test_vnet_2" width="900" />
+<br>
+<em></em>
+</div>
+<br><br>
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
