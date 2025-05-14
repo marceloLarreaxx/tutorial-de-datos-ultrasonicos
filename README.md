@@ -384,7 +384,7 @@ Una vez completado el entrenamiento, es posible visualizar el desempeño de la r
 
 <br><br>
 <div align="left">
-<img src="Imagenes/test_vnet_1.png" alt="test_vnet_1" width="900" />
+<img src="Imagenes/test_vnet_1.png" alt="test_vnet_1" width="700" />
 <br>
 <em></em>
 </div>
@@ -398,6 +398,16 @@ Una vez completado el entrenamiento, es posible visualizar el desempeño de la r
 <img src="Imagenes/test_vnet_2.png" alt="test_vnet_2" width="900" />
 <br>
 <em></em>
+</div>
+<br><br>
+
+Este procedimiento permite inspeccionar, de forma interactiva, el resultado de la segmentación realizada por la red frente al ground truth teórico, facilitando así la evaluación cualitativa del modelo entrenado. La figura 12 muestra un ejemplo.
+
+<br><br>
+<div align="center">
+<img src="Imagenes/test_vnet_3.png" alt="test_vnet_3" width="700" />
+<br>
+<em>Figura 12: Ejemplo de inspección de desempeño de la red</em>
 </div>
 <br><br>
 
