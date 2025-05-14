@@ -350,6 +350,8 @@ Son estos archivos los que se leerán en el proceso de entrenamiento de la red y
 
 ## 6. Entrenamiento CNN
 
+Esta etapa corresponde al entrenamiento de la red neuronal, y se ejecuta mediante el script [entrenar_V-net.py]("Entrenamiento_cnn/entrenar_V-net.py"). La red utilizada es una red neuronal convolucional enfocada en la segmentación de imágenes 3D, diseñada específicamente para el tipo de imágenes ultrasónicas adquiridas. Su arquitectura es de tipo autoencoder (ver Figura 10) e implementada en el [custom_vnet.py]("Entrenamiento_cnn/custom_vnet.py").
+
 ## Documentación
 
 Se adjunta también un trabajo de fin de máster (UPM) que explica con mayor detalle puntos teóricos y prácticos:
