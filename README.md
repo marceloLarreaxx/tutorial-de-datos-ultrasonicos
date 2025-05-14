@@ -354,11 +354,25 @@ Esta etapa corresponde al entrenamiento de la red neuronal, y se ejecuta mediant
 
 <br><br>
 <div align="center">
-<img src="Imagenes/v_net_arq.png" alt="v_net_arq" width="500" />
+<img src="Imagenes/v_net_arq.png" alt="v_net_arq" width="700" />
 <br>
 <em>Figura 11: Arquitectura red personalizada</em>
 </div>
 <br><br>
+
+El script de entrenamiento trabaja con un archivo de configuración en formato .json ([entrenar_V-net.json5]("Entrenamiento_cnn/entrenar_V-net.json5")), el cual incluye:
+
+- Las rutas y nombres de los archivos .pickle generados durante el post-procesamiento (ver Figura 10).
+- Los valores optimizados de hiperparámetros de la red.
+- La ruta de salida donde se guardará el modelo entrenado.
+
+Antes de instanciar y entrenar la red, es necesario preprocesar las adquisiciones. Este paso consiste en:
+
+- Concatenar las imágenes de todas las piezas definidas para entrenamiento.
+- Subdividir estos datos en tensores multidimensionales, compatibles con las funciones de TensorFlow. Estos tensores contienen:
+  - Las imágenes ultrasónicas.
+  - Sus correspondientes TOFs teóricos.
+  - El ground truth, definido como una máscara binaria generada a partir de los valores teóricos de TOF.
 
 ## Documentación
 
