@@ -346,7 +346,7 @@ Es necesario que exista una carpeta específica previamente generada, donde se a
 </div>
 <br><br>
 
-Son estoas archivos los que se leerán en el proceso de entrenamiento de la red y de su evaluación. 
+Son estos archivos los que se leerán en el proceso de entrenamiento de la red y de su evaluación. Valga notar que esto se hace para una carpeta que contendrá los archivos a utilizar para el entrenamiento de la red, y otra que incluirá los archivos para evaluación o prueba de la red entrenada.
 
 ## 6. Entrenamiento CNN
 
