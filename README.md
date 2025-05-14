@@ -391,7 +391,7 @@ Una vez completado el entrenamiento, es posible visualizar el desempeño de la r
 <br><br>
 
 - Posteriormente, se carga el modelo previamente entrenado. La ruta correspondiente se encuentra definida también dentro del archivo .json.
-- Con el modelo ya cargado, junto con las imágenes de prueba y sus respectivos tiempos de vuelo teóricos, es posible visualizar el desempeño de la red para cada muestra individual. Esto se realiza a través de la clase ***ImageBrowser()***, definida en el script [cnnsurf_plot.py]("Post_procesamiento/cnnsurf_plot.py").
+- Con el modelo ya cargado, junto con las imágenes de prueba y sus respectivos tiempos de vuelo teóricos, es posible visualizar el desempeño de la red para cada imagen individual. Esto se realiza a través de la clase ***ImageBrowser()***, definida en el script [cnnsurf_plot.py]("Post_procesamiento/cnnsurf_plot.py").
 
 <br><br>
 <div align="left">
